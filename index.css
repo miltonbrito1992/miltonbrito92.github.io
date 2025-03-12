@@ -1,15 +1,53 @@
-*{
-  background-color: mediumspringgreen;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4e1c1;
+    color: #5a3e1b;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
-h1{
-text-align: center;
-  font-family: sans-serif;
+
+header {
+    background: url('wood-texture.jpg') no-repeat center;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
 }
-img{
-   width: 100%;
-   height: auto;
+
+nav {
+    background: url('straw-texture.jpg') no-repeat center;
+    background-size: cover;
+    padding: 10px;
 }
-.tractor{
-   width: 30%;
-   height: auto;
+
+button {
+    background-color: #8b5e3b;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6a4227;
+}
+
+.content {
+    padding: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    background: url('wood-texture.jpg') no-repeat center;
+    background-size: cover;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
