@@ -1,13 +1,48 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt">
 <head>
-  <title>Agro Borregos</title>
-<link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quinta Horácio</title>
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
-  <h1>Agro Borregos</h1>
-  <h3>Agricultura em familia!</h3>
-  <img src="corn.jpg" />
-  <img src="tractor.JPG" class: tractor/>
-</body>
+    <header>
+        <h1>Quinta Horácio</h1>
+    </header>
+    
+    <nav>
+        <button onclick="showSection('home')">Home</button>
+        <button onclick="showSection('glamping')">Glamping</button>
+        <button onclick="showSection('caravan')">Caravanismo</button>
+        <button onclick="showSection('animals')">Animais</button>
+    </nav>
 
+    <main>
+        <section id="home" class="content">
+            <h2>Bem-vindo à Quinta Horácio</h2>
+            <p>Descubra um refúgio natural com alojamento rural, espaço para caravanistas e uma experiência única com os nossos animais.</p>
+        </section>
+
+        <section id="glamping" class="content hidden">
+            <h2>Experiência de Glamping</h2>
+            <p>Fique em tendas luxuosas e conecte-se com a natureza.</p>
+        </section>
+
+        <section id="caravan" class="content hidden">
+            <h2>Espaço para Caravanistas</h2>
+            <p>Estacionamento confortável com todas as comodidades.</p>
+        </section>
+
+        <section id="animals" class="content hidden">
+            <h2>Os Nossos Animais</h2>
+            <p>Conheça os cavalos, ovelhas, galinhas e muitos outros amigos da quinta!</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Quinta Horácio - Turismo Rural</p>
+    </footer>
+</body>
 </html>
